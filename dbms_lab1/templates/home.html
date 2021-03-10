@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {text-align: center;}
+            .tab4{
+                display: inline-block; 
+                margin-left: 140px; 
+            }
+        
+            .required {
+                color: red;
+                }
+        </style>
+        <title>HTML FORM</title>
+    </head>
+    <body>
+        <div style="background-color:#228b45;">
+        <h1 style="color:white;">Student Details Form</h1>
+        <h2 style="color:white;">Fill up the information to know your marks and status</h2>
+        </div>
+
+        
+        <form action="/results" method="POST">
+            <div style="float:left;" >
+                <label for="name" style="font-size:20px" ><b>NAME:</b><span class="required">*</span></label><br>
+            </div>
+                        <div style="float:left;" class="tab4">
+                            <input type="text" id="name" name="cells1" value=" "  style="font-size:20px" >
+                        </div>
+                        <div style="float:left;" class="tab4">
+                            <input type="text" id="name" name="cells2" value=" "  style="font-size:20px" >
+                        </div>
+            <br> <br><br>
+            <div style="float:left;">
+                <label for="roll no" style="font-size:20px"><b>Roll No:</b><span class="required">*</span></label>
+            </div>
+                        <div  style="float:left;" class="tab4">
+                            <input type="float" id="roll no" name="cells3" value=" "  style="font-size:20px" ><br>
+                        </div>
+             <br> <br><br>
+            <div style="float:left;">
+                <label for="maths" style="font-size:20px"><b>Maths</b><span class="required">*</span></label>
+            </div>
+                        <div  style="float:left;" class="tab4">
+                            <input type="float" id="roll no" name="cells4" value=" "  style="font-size:20px" ><br>
+                        </div>
+             <br> <br><br>
+            <div style="float:left;">
+                <label for="Science" style="font-size:20px"><b>Science</b><span class="required">*</span></label>
+            </div>
+                        <div  style="float:left;" class="tab4">
+                            <input type="float" id="Science" name="cells5" value=" "  style="font-size:20px" ><br>
+                        </div>
+            <br> <br><br>
+            <div style="float:left;">
+                <label for="english" style="font-size:20px"><b>English</b><span class="required">*</span></label>
+            </div>
+                        <div  style="float:left;" class="tab4">
+                            <input type="float" id="english" name="cells6" value=" "  style="font-size:20px" ><br>
+                        </div>
+            <br> <br><br>
+            <div style="float:left;">
+                <label for="Sanskrit" style="font-size:20px"><b>Sanskir</b><span class="required">*</span></label>
+            </div>
+                        <div  style="float:left;" class="tab4">
+                            <input type="float" id="Sanskrit" name="cells7" value=" "  style="font-size:20px" ><br>
+                        </div>
+             <br> <br><br>
+            <div style="float:left;">
+                <label for="Hindi" style="font-size:20px"><b>Hindi</b><span class="required">*</span></label>
+            </div>
+                        <div  style="float:left;" class="tab4">
+                            <input type="float" id="Hindi" name="cells8" value=" "  style="font-size:20px" ><br>
+                        </div>
+        <br> <br><br>
+
+        <button type="submit" value="Submit" style="font-size:20px; background-color:#228B22; color:white; "><b>Submit</b><span class="required">*</span></button>
+
+        </form>
+    </body>
+</html>
